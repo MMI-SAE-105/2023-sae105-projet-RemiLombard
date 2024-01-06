@@ -11,26 +11,37 @@ main{
 
 h1{
     font-weight: bold;
+    font-family: var(--font-family);
     font-size: var(--heading-1);
 }
 
 h2{
     font-weight: normal;
     font-size: var(--heading-2);
+    font-family: var(--font-family-2);
 }
 
 h3{
     font-weight: normal;
+    font-family: var(--font-family-2);
     font-size: var(--menu);
+}
+
+h4{
+    font-weight: bold;
+    font-family: var(--font-family);
+    font-size: var(--footer);
 }
 
 p{
     font-weight: normal;
+    font-family: var(--font-family-3);
     font-size: var(--text);
 }
 
 figcaption{
     font-weight: normal;
+    font-family: var(--font-family-3);
     font-size: var(--legend);
     font-style: italic;
 }
