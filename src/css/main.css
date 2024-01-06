@@ -35,6 +35,7 @@ p{
     font-family: var(--font-family-3);
     font-size: var(--text);
     color: var(--white-color);
+    line-height: 1.5;
 }
 
 figcaption{
