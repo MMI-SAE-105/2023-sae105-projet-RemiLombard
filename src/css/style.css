@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+@import "/src/css/variable.css";
+
+@import "/src/css/main.css";
+
+@import "/src/css/header.css";
+@import "/src/css/footer.css";
+
+@import "/src/css/apropos.css";
+@import "/src/css/contact.css";
+@import "/src/css/film.css";
+@import "/src/css/frise.css";
+@import "/src/css/glossaire.css";
+@import "/src/css/index.css";
+@import "/src/css/livre.css";
+@import "/src/css/musique.css";
+@import "/src/css/projets.css";
+@import "/src/css/realisateur.css";
+@import "/src/css/replique.css";
