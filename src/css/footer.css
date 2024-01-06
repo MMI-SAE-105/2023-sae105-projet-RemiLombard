@@ -1,0 +1,112 @@
+.footer{
+    background: linear-gradient(to bottom, #1D0042 0%, #010101 18%);
+    margin-bottom: 0px;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.footer__header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-top: 43px;
+    margin-bottom: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer__liens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__liens--apropos{
+    margin-bottom: 15px;
+    font-family: var(--font-family-2);
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: var(--menu);
+}
+
+.footer__liens--contact{
+    margin-bottom: 15px;
+    font-family: var(--font-family-2);
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: var(--menu);
+}
+
+.footer__liens--projets{
+    margin-bottom: 15px;
+    font-family: var(--font-family-2);
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: var(--menu);
+}
+
+.footer__liens--glossaire{
+    margin-bottom: 35px;
+    font-family: var(--font-family-2);
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: var(--menu);
+}
+
+.footer__line{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 327px;
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.footer__end{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__end--logo{
+    margin-bottom: 15px;
+    width: 64px;
+    height: 46px;
+}
+
+.footer__end--liste--logos{  
+    display: flex; 
+    justify-content:space-around; 
+    align-items: center;
+    text-align: center;
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer__end--liste--logos li{ 
+    margin: 0 10px; 
+}
+
+.footer__end--mail{
+    margin-bottom: 25px;
+    font-family: var(--font-family);
+    text-decoration: underline;
+    color: var(--white-color);
+    font-size: var(--footer);    
+}
+
+.footer__end--mention{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 25px;
+}
+
