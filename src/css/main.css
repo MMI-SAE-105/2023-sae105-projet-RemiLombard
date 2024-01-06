@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: var(--blue-color);
+}
+
+h1{
+    font-weight: bold;
+    font-size: var(--heading-1);
+}
+
+h2{
+    font-weight: normal;
+    font-size: var(--heading-2);
+}
+
+h3{
+    font-weight: normal;
+    font-size: var(--menu);
+}
+
+p{
+    font-weight: normal;
+    font-size: var(--text);
+}
+
+figcaption{
+    font-weight: normal;
+    font-size: var(--legend);
+    font-style: italic;
+}
