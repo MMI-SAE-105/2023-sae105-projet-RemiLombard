@@ -1,0 +1,34 @@
+.header {
+    background-color: var(--black-color);
+  }
+  
+  .header__elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.header__elements--home{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    height: 46px;
+    width: 46px;   
+}
+
+.header__elements--logo{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.header__elements--menu{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    height: 48px;
+    width: 48px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
