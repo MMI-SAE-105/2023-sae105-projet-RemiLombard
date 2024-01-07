@@ -68,10 +68,23 @@
     width: 335px;
 }
 
-.article__container--line {
+.article__container--line1 {
     width: 184.35px;
     height: 10px;
     display: block;
+}
+
+.article__container--line2{
+    width: 156.5px;
+    height: 10px;
+    display: block;
+}
+
+.article__container--legend--line2{
+    width: 156.5px;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
