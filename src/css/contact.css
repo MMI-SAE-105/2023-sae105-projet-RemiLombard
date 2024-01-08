@@ -1,0 +1,48 @@
+.contact__header{
+    padding-left: 50px;
+    padding-right: 50px;
+    background: linear-gradient(to bottom, #E3075F 0%, #1D0042 100%);
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__header--text{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact__contenu{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.contact__contenu--intro{
+    margin-bottom: 40px;
+}
+
+.contact__contenu--nom{
+    font-family: var(--font-family-2);
+    font-size: var(--heading-2);
+    color: var(--white-color);
+    margin-bottom: 30px;
+}
+
+.contact__contenu--nom--texte{
+    font-family: var(--font-family-2);
+    font-size: var(--heading-2);
+    display: block;
+    color: var(--white-color);
+}
+
+input,
+textarea {
+    text-decoration: none;
+    background-color: white; 
+  }
+
+
