@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/OLLHpiQA)
 - NOM : Lombard
 - PRÉNOM : Rémi
-- URL du site : http://grootspeak.remilombard.fr/
+- URL du site :
 - URL FIGMA : https://www.figma.com/file/EKdTQOIGUONXwOho6cpqFc/Maquettes-projet-individuel-%E2%80%94-R%C3%A9mi-Lombard-(Copy)?type=design&node-id=1610%3A127&mode=design&t=auWVwGZVPdQvTYlq-1
 
 # Structure de départ pour le projet individuel.
