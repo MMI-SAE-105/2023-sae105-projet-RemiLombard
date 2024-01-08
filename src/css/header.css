@@ -8,9 +8,9 @@
     align-items: center;
   }
   
-.header__elements--home{
-    margin-top: 0px;
-    margin-bottom: 0px;
+  .header__elements--home{
+    margin-top: 21px;
+    margin-bottom: 1px;
     margin-left: 20px;
     height: 46px;
     width: 46px;   
@@ -31,4 +31,24 @@
     background-color: transparent;
     border: none;
     padding: 0;
+}
+
+.header__language{
+  display: flex;
+  margin-left: 24px; 
+  text-decoration: none;/* Ajoutez cette ligne pour aligner avec header__elements--home */
+}
+
+.header__language--FR{
+  font-weight:bolder;
+}
+
+.header__home-language {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header__language--EN{
+  font-weight: bolder;
 }
