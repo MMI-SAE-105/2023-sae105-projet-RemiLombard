@@ -1,0 +1,54 @@
+.apropos__header{
+    padding-left: 50px;
+    padding-right: 50px;
+    background: linear-gradient(to bottom, #E3075F 0%, #1D0042 100%);
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.apropos__header--text{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.apropos__contenu{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+
+.apropos__contenu--text{
+    margin-top: 20px;
+}
+
+.apropos__contenu--subtitle{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.apropos__line{
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.apropos__btn{
+    text-decoration: none;
+    display: inline-block;
+    background-color: var(--green-color);
+    border-radius: 100px; 
+    color: var(--white-color);
+    text-align: center;
+    font-family: var(--font-family-3);
+    font-size: var(--text);
+    padding: 8px 12px; 
+    cursor: pointer;
+    width: 150px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
