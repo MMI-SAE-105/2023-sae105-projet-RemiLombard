@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,19 +15,28 @@
     <header class="header">
         <div class="header__elements">
             <div class="header__home-language">
-                <a href="/en/index.html" class="header__elements--home">
+                <a href="/fr/index.html" class="header__elements--home">
                     <img src="/public/icons/Icone_home.svg" alt="icone accueil">
                 </a>
-                <a href="/fr/replique.html" class="header__language">
+                <a href="/en/quote.html" class="header__language">
                     <p class="header__language--FRslash">FR/</p>
                     <p class="header__language--EN">EN</p>
                 </a>
             </div>
             <img src="/public/icons/Logo_GS_header.svg" alt="logo du site web" class="header__elements--logo">
-            <button class="header__elements--menu">
-                <img src="/public/icons/Icone_menu.svg" alt="icone menu">
-            </button>
         </div>
+        <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+            <div class="nav-toggle-bar"></div>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="/fr/replique.html">An iconic line</a></li>
+                <li><a href="/fr/film.html">A quacky film</a></li>
+                <li><a href="/fr/realisateur.html">A superhero visionnary</a></li>
+                <li><a href="/fr/musique.html">A melody of space</a></li>
+                <li><a href="/fr/livre.html">A cosmic tale</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main class="article">
