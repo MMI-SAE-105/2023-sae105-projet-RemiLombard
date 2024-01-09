@@ -119,7 +119,7 @@
     margin-bottom: 40px;
 }
    
-.article__ba--video{
+.article__ba--videofr{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -128,7 +128,22 @@
 }
 
 
-.article__ba--video video {
+.article__ba--videofr video {
+    width: 335px;
+    height: 188px;
+    box-shadow: 4px 4px 0px 0px var(--pink-color);
+}
+
+.article__ba--videoen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.article__ba--videoen video {
     width: 335px;
     height: 188px;
     box-shadow: 4px 4px 0px 0px var(--pink-color);
