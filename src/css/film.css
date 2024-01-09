@@ -118,3 +118,17 @@
     margin-top: 50px;
     margin-bottom: 40px;
 }
+   
+.article__ba--video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.article__ba--video video {
+    width: 335px;
+    height: 188px;
+}
