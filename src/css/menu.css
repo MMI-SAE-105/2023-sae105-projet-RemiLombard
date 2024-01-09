@@ -43,7 +43,6 @@
     top: 0;
 }
 
-
 .menu{
     background-color: var(--black-color);
     position: fixed;
@@ -83,7 +82,6 @@
 }
 
 .menu li{
-    margin-bottom: 30px;
     transform:translateX(30px);
     opacity: 0;
     transition: all .4s ease;
@@ -104,3 +102,8 @@
 .menu-open .menu li:nth-child(n+3) {transition-delay: .4s;}
 .menu-open .menu li:nth-child(n+4) {transition-delay: .45s;}
 .menu-open .menu li:nth-child(n+5) {transition-delay: .5s;}
+
+.menu__line{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
