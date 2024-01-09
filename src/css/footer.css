@@ -28,7 +28,8 @@
     font-family: var(--font-family-2);
     text-decoration: none;
     color: var(--white-color);
-    font-size: var(--menu);
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 .footer__liens--contact{
@@ -36,7 +37,8 @@
     font-family: var(--font-family-2);
     text-decoration: none;
     color: var(--white-color);
-    font-size: var(--menu);
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 .footer__liens--projets{
@@ -44,7 +46,8 @@
     font-family: var(--font-family-2);
     text-decoration: none;
     color: var(--white-color);
-    font-size: var(--menu);
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 .footer__liens--glossaire{
@@ -52,7 +55,8 @@
     font-family: var(--font-family-2);
     text-decoration: none;
     color: var(--white-color);
-    font-size: var(--menu);
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 .footer__line{
