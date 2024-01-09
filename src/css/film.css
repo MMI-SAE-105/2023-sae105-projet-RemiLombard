@@ -124,11 +124,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
 }
 
 
 .article__ba--video video {
     width: 335px;
     height: 188px;
+    box-shadow: 4px 4px 0px 0px var(--pink-color);
 }
