@@ -1,9 +1,9 @@
 .nav-toggle{
     background-color: transparent;
-    width: 38px;
+    width: 37px;
     height: 38px;
     position: absolute;
-    top: 35px;
+    top: 46px;
     right: 20px;
     display: flex;
     align-items: center;
@@ -24,11 +24,11 @@
 }
 
 .nav-toggle-bar::before{
-    top: -12px;
+    top: -13px;
 }
 
 .nav-toggle-bar::after{
-    top: 12px;
+    top: 13px;
 }
 
 .menu-open .nav-toggle-bar{
@@ -81,7 +81,7 @@
     margin-bottom: 30px;
     transform:translateX(30px);
     opacity: 0;
-    transition: all .5s ease;
+    transition: all .4s ease;
 }
 
 .menu a{
