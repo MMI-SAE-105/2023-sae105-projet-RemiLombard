@@ -1,5 +1,5 @@
 .header {
-    background: linear-gradient(to bottom, #010101 50%, #E3075F 100%);
+    background-color: var(--black-color);
     height: 119px;
   }
   
