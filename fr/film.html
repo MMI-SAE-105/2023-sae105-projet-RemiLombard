@@ -91,9 +91,84 @@
         </div>
         <img src="/public/icons/Line_conclu.svg" alt="ligne décoratrice" class="article__lineconclu2">
         <p class="article__contenu">En conclusion, "Les Gardiens de la Galaxie" est bien plus qu'un simple film de super-héros. C'est une aventure intergalactique épique qui allie humour, action, émotion et une <a href="/fr/glossaire.html" class="terme__glossaire">bande-son</a> inoubliable. Il a redéfini les attentes pour les films du genre et a conquis le cœur d'un public mondial. L'univers cinématographique Marvel est devenu encore plus vaste grâce à cette équipe <a href="/fr/glossaire.html" class="terme__glossaire">hétéroclite</a> de héros, et leur aventure continue d'inspirer et de divertir les fans à travers le cosmos.</p>
-        <a href="/fr/realisateur.html" class="article__btn">Article suivant</a>
 
-        
+            
+        <section class="article__carrouselfilm">
+
+            <div class="article__carrousel__titre">
+                <h2 class="article__carrouselfilm__titre--texte">Découvrez quelques autres films du même réalisateur ou dans lesquels vous pourrez apercevoir notre fantastique équipe</h2>
+            </div>
+
+            <div class="article__carrousel__carrousel" x-data="{hrefCourant: '#image-1',}">
+                <button @click ="$refs.parent.scrollLeft -= $refs.parent.clientWidth" class="article__carrousel__carrousel__btn article__carrousel__carrousel__btn-avant" aria-label="slide précedant"><</button><button @click ="$refs.parent.scrollLeft += $refs.parent.clientWidth" class="article__carrousel__carrousel__btn article__carrousel__carrousel__btn-apres" aria-label="slide suivant">></button>
+                <div class="article__carrousel__carrousel__parent-images" x-ref="parent">
+                        
+                    <div id="image-1" class="article__carrousel__carrousel__image">
+                        <figure>
+                            <img src="/public/img/AnyConv.com__gotg2.webp" alt="affiche de gotg2">
+                            <figcaption class="legende__carrousel">
+                                "Les Gardiens de la Galaxie Vol. 2" (2017)
+                                <a href="https://fr.wikipedia.org/wiki/Les_Gardiens_de_la_Galaxie_Vol._2" class="article__btn--carrousel">En savoir plus</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    
+                    <div id="image-2" class="article__carrousel__carrousel__image">
+                        <figure>
+                            <img src="/public/img/AnyConv.com__gotg3.webp" alt="affiche de gotg3">
+                            <figcaption class="legende__carrousel">
+                                "Les Gardiens de la Galaxie Vol. 3" (2023)
+                                <a href="https://fr.wikipedia.org/wiki/Les_Gardiens_de_la_Galaxie_Vol._3" class="article__btn--carrousel">En savoir plus</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div id="image-3" class="article__carrousel__carrousel__image">
+                        <figure>
+                            <img src="/public/img/AnyConv.com__infinity.webp" alt="affiche de infinity war">
+                            <figcaption class="legende__carrousel">
+                                "Avengers : Infinity War" (2018)
+                                <a href="https://fr.wikipedia.org/wiki/Avengers:_Infinity_War" class="article__btn--carrousel">En savoir plus</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div id="image-4" class="article__carrousel__carrousel__image">
+                        <figure>
+                            <img src="/public/img/AnyConv.com__endgame.webp" alt="affiche de endgame">
+                            <figcaption class="legende__carrousel">
+                                "Avengers : Endgame" (2019)
+                                <a href="https://fr.wikipedia.org/wiki/Avengers:_Endgame" class="article__btn--carrousel">En savoir plus</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div id="image-5" class="article__carrousel__carrousel__image">
+                        <figure>
+                            <img src="/public/img/AnyConv.com__suicide.webp" alt="affiche de suicide squad">
+                            <figcaption class="legende__carrousel">
+                                "Suicide squad" (2016)
+                                <a href="https://fr.wikipedia.org/wiki/Suicide_Squad_(film)" class="article__btn--carrousel">En savoir plus</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div id="image-5" class="article__carrousel__carrousel__image">
+                        <figure>
+                            <img src="/public/img/AnyConv.com__super.webp" alt="affiche de super">
+                            <figcaption class="legende__carrousel">
+                                "Super" (2010)
+                                <a href="https://fr.wikipedia.org/wiki/Super_(film)" class="article__btn--carrousel">En savoir plus</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <a href="/fr/realisateur.html" class="article__btn">Article suivant</a>
 
     </main>
 

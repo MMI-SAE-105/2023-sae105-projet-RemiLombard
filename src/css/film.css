@@ -148,3 +148,48 @@
     height: 188px;
     box-shadow: 4px 4px 0px 0px var(--pink-color);
 }
+
+.article__carrouselfilm{
+    margin-bottom: none;
+}
+
+.article__carrouselfilm__titre--texte{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    z-index: 2;
+    font-family: var(--font-family-2);
+    font-size: var(--heading-2);
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+   .article__btn--carrousel{
+    text-decoration: none;
+    display: inline-block;
+    background-color: var(--pink-color);
+    border-radius: 100px; 
+    color: var(--white-color);
+    text-align: center;
+    font-family: var(--font-family-3);
+    font-size: var(--text);
+    font-style: normal;
+    padding: 8px 12px; 
+    margin-left: 20px;
+    cursor: pointer;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+   }
+
+   .legende__carrousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 274px;
+   }
