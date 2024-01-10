@@ -98,11 +98,7 @@
             <div class="article__carrousel__carrousel" x-data="{hrefCourant: '#image-1',}">
                 <button @click ="$refs.parent.scrollLeft -= $refs.parent.clientWidth" class="article__carrousel__carrousel__btn article__carrousel__carrousel__btn-avant" aria-label="slide précedant"><</button><button @click ="$refs.parent.scrollLeft += $refs.parent.clientWidth" class="article__carrousel__carrousel__btn article__carrousel__carrousel__btn-apres" aria-label="slide suivant">></button>
                 <div class="article__carrousel__carrousel__parent-images" x-ref="parent">
-                        @scroll.debounce.250ms.passive="
-                    hrefCourant = '#'+
-                                    [...$refs.parent.children]
-                                    .find(e=>e.getBoundingClientRect().x>=0)
-                                    .id"> 
+                        
                     <div id="image-1" class="article__carrousel__carrousel__image">
                         <figure>
                             <img src="/public/img/book1chrono.webp" alt="cover du comics Les Gardiens de la Galaxie de 1969">

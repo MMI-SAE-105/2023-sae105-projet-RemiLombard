@@ -129,10 +129,6 @@
     margin-bottom: 40px;
 }
 
-.article__carrousel__titre{
-    background-color: var(--blue-color);
-}
-
 .article__carrousel__titre--texte{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -142,10 +138,100 @@
     font-size: var(--heading-2);
     color: var(--white-color);
     background-color: var(--blue-color);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 30px;
 }
 
+figcaption {
+    color: var(--white-color);
+}
+
+.article__carrousel{
+    padding-bottom: 40px;
+}
+
+.article__carrousel__carrousel{
+    position: relative;
+}
+
+.article__carrousel__carrousel__parent-images {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+}
+
+
+    .article__carrousel__carrousel__parent-images::-webkit-scrollbar {
+        height: 1px;
+        margin-top: 10px; /* Hauteur de la barre de défilement */
+    }
+    
+    /* Style du chemin de la barre de défilement */
+    .article__carrousel__carrousel__parent-images::-webkit-scrollbar-track {
+        background: var(--white-color); /* Couleur de fond du chemin */
+        border-radius: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    /* Style du curseur de la barre de défilement */
+    .article__carrousel__carrousel__parent-images::-webkit-scrollbar-thumb {
+        background: var(--pink-color);
+        border-radius: 10px; /* Couleur de fond du curseur */
+    }
+    
+    /* Style du curseur de la barre de défilement au survol */
+    .article__carrousel__carrousel__parent-images::-webkit-scrollbar-thumb:hover {
+        background: #555; /* Couleur de fond du curseur au survol */
+    }
+
+.article__carrousel__carrousel__image {
+    width: 100%;
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+}
+
+.article__carrousel__carrousel__image img {
+    object-fit: cover;
+    box-shadow: 5px 5px 0px 0px var(--green-color);
+    margin-bottom: 10px;
+}
+
+.article__carrousel__carrousel__image figure {
+    margin: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.article__carrousel__carrousel__btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background: var(--pink-color);
+    border-radius: 50px;
+    border: none;
+    display: grid;
+    place-content: center;
+    color: var(--white-color);
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.article__carrousel__carrousel__btn-avant {
+    left: 0;
+}
+
+.article__carrousel__carrousel__btn-apres {
+    right: 0;
+}
 
