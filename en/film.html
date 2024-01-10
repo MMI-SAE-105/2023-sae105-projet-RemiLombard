@@ -30,15 +30,15 @@
         </div>
         <nav class="menu">
             <ul>
-                <li><a href="/en/replique.html">An iconic line</a></li>
+                <li><a href="/en/quote.html">An iconic line</a></li>
                 <img src="/public/icons/Line_conclu.svg" alt="ligne decoratrice" class="menu__line"> 
                 <li><a href="/en/film.html">A wacky film</a></li>
                 <img src="/public/icons/Line_conclu.svg" alt="ligne decoratrice" class="menu__line"> 
-                <li><a href="/en/realisateur.html">A superhero visionnary</a></li>
+                <li><a href="/en/filmmaker.html">A superhero visionnary</a></li>
                 <img src="/public/icons/Line_conclu.svg" alt="ligne decoratrice" class="menu__line"> 
-                <li><a href="/en/musique.html">A melody of space</a></li>
+                <li><a href="/en/music.html">A melody of space</a></li>
                 <img src="/public/icons/Line_conclu.svg" alt="ligne decoratrice" class="menu__line"> 
-                <li><a href="/en/livre.html">A cosmic tale</a></li>
+                <li><a href="/en/book.html">A cosmic tale</a></li>
             </ul>
         </nav>
     </header>
@@ -91,7 +91,81 @@
         </div>
         <img src="/public/icons/Line_conclu.svg" alt="ligne décoratrice" class="article__lineconclu2">
         <p class="article__contenu">In conclusion, "Guardians of the Galaxy" is much more than just a superhero film. It's an epic intergalactic adventure that blends humor, action, emotion, and an unforgettable <a href="/en/glossary.html" class="terme__glossaire">soundtrack</a>. It has redefined expectations for films in the genre and has won the hearts of a global audience. The Marvel Cinematic Universe has become even more expansive thanks to this <a href="/en/glossary.html" class="terme__glossaire">heterogeneous</a> team of heroes, and their journey continues to inspire and entertain fans across the cosmos.</p>
-        <a href="/fr/realisateur.html" class="article__btn">Next article</a>
+        <section class="article__carrouselfilm">
+
+            <div class="article__carrousel__titre">
+                <h2 class="article__carrouselfilm__titre--texte">Discover some other films by the same director or in which you can catch a glimpse of our fantastic team.</h2>
+            </div>
+
+            <div class="article__carrousel__carrousel" x-data="{hrefCourant: '#image-1',}">
+                <button @click ="$refs.parent.scrollLeft -= $refs.parent.clientWidth" class="article__carrousel__carrousel__btn article__carrousel__carrousel__btn-avant" aria-label="slide précedant"><</button><button @click ="$refs.parent.scrollLeft += $refs.parent.clientWidth" class="article__carrousel__carrousel__btn article__carrousel__carrousel__btn-apres" aria-label="slide suivant">></button>
+                <div class="article__carrousel__carrousel__parent-images" x-ref="parent">
+                        
+                    <div id="image-1" class="article__carrousel__carrousel__image">
+                        <figure>
+                            <img src="/public/img/AnyConv.com__gotg2.webp" alt="affiche de gotg2">
+                            <figcaption class="legende__carrousel">
+                                "Guardians of the Galaxy Vol. 2" (2017)
+                                <a href="https://fr.wikipedia.org/wiki/Les_Gardiens_de_la_Galaxie_Vol._2" class="article__btn--carrousel">Learn more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    
+                    <div id="image-2" class="article__carrousel__carrousel__image">
+                        <figure>
+                            <img src="/public/img/AnyConv.com__gotg3.webp" alt="affiche de gotg3">
+                            <figcaption class="legende__carrousel">
+                                "Guardians of the Galaxy Vol. 3" (2023)
+                                <a href="https://fr.wikipedia.org/wiki/Les_Gardiens_de_la_Galaxie_Vol._3" class="article__btn--carrousel">Learn more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div id="image-3" class="article__carrousel__carrousel__image">
+                        <figure>
+                            <img src="/public/img/AnyConv.com__infinity.webp" alt="affiche de infinity war">
+                            <figcaption class="legende__carrousel">
+                                "Avengers : Infinity War" (2018)
+                                <a href="https://fr.wikipedia.org/wiki/Avengers:_Infinity_War" class="article__btn--carrousel">Learn more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div id="image-4" class="article__carrousel__carrousel__image">
+                        <figure>
+                            <img src="/public/img/AnyConv.com__endgame.webp" alt="affiche de endgame">
+                            <figcaption class="legende__carrousel">
+                                "Avengers : Endgame" (2019)
+                                <a href="https://fr.wikipedia.org/wiki/Avengers:_Endgame" class="article__btn--carrousel">Learn more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div id="image-5" class="article__carrousel__carrousel__image">
+                        <figure>
+                            <img src="/public/img/AnyConv.com__suicide.webp" alt="affiche de suicide squad">
+                            <figcaption class="legende__carrousel">
+                                "Suicide squad" (2016)
+                                <a href="https://fr.wikipedia.org/wiki/Suicide_Squad_(film)" class="article__btn--carrousel">Learn more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div id="image-5" class="article__carrousel__carrousel__image">
+                        <figure>
+                            <img src="/public/img/AnyConv.com__super.webp" alt="affiche de super">
+                            <figcaption class="legende__carrousel">
+                                "Super" (2010)
+                                <a href="https://fr.wikipedia.org/wiki/Super_(film)" class="article__btn--carrousel">Learn more</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <a href="/en/filmmaker.html" class="article__btn">Next article</a>
 
     </main>
 
@@ -102,10 +176,10 @@
             <img src="/public/icons/Line_1_footer.svg" alt="ligne décoratrice" class="footer__header--line2"> 
         </div>
         <div class="footer__liens">
-            <a href="/en/apropos.html" class="footer__liens--apropos">About</a>
+            <a href="/en/about.html" class="footer__liens--apropos">About</a>
             <a href="/en/contact.html" class="footer__liens--contact">Contact</a>
-            <a href="/en/projets.html" class="footer__liens--projets">Other projects</a>
-            <a href="/en/glossaire.html" class="footer__liens--glossaire">Glossary</a>
+            <a href="/en/projects.html" class="footer__liens--projets">Other projects</a>
+            <a href="/en/glossary.html" class="footer__liens--glossaire">Glossary</a>
         </div>
         <img src="/public/icons/Line_2_footer.svg" alt="ligne décoratrice" class="footer__line">
         <div class="footer__end">
