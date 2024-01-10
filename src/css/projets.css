@@ -13,3 +13,54 @@
     text-align: center;
     margin-bottom: 20px;
 }
+
+.projet__texte{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.galerie{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 70px auto 0;;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.galerie__projet{
+    margin-bottom: 40px;
+}
+
+.galerie__projet--legende{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galerie__btn{
+    text-decoration: none;
+    display: inline-block;
+    background-color: var(--green-color);
+    border-radius: 100px; 
+    color: var(--white-color);
+    text-align: center;
+    font-family: var(--font-family-3);
+    font-size: var(--text);
+    padding: 8px 12px; 
+    margin-left: 20px;
+    cursor: pointer;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.galerie__projet--legende figcaption{
+    font-family: var(--font-family-3);
+    font-style: normal;
+}
+
+
