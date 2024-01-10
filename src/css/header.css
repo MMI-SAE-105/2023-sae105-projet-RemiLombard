@@ -1,6 +1,7 @@
 .header {
     background-color: var(--black-color);
     height: 119px;
+    border-bottom: var(--green-color) solid 4px;
   }
   
   .header__elements {
