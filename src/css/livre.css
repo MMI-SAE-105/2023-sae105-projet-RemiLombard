@@ -128,3 +128,24 @@
     margin-top: 50px;
     margin-bottom: 40px;
 }
+
+.article__carrousel__titre{
+    background-color: var(--blue-color);
+}
+
+.article__carrousel__titre--texte{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    z-index: 2;
+    font-family: var(--font-family-2);
+    font-size: var(--heading-2);
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+

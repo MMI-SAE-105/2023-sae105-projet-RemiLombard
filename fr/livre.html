@@ -89,6 +89,59 @@
         </div>       
         <img src="/public/icons/Line_conclu.svg" alt="ligne décoratrice" class="article__lineconclu2">
         <p class="article__contenu">En conclusion, "Les Gardiens de la Galaxie, Tome 1" de Brian Michael Bendis est une aventure épique qui explore les recoins les plus éloignés de l'univers Marvel. La combinaison d'une intrigue captivante, d'illustrations impressionnantes et de personnages mémorables en fait un incontournable pour les amateurs de bande dessinée et de science-fiction. Cette bande dessinée a contribué à populariser l'équipe des Gardiens de la Galaxie et à les ériger en icônes de la culture populaire.</p>
+        <section class="article__carrousel">
+
+            <div class="article__carrousel__titre">
+                <h2 class="article__carrousel__titre--texte">Découvrez quelques comics à lire pour découvrir les Gardiens de la Galaxie, par ordre chronologique</h2>
+            </div>
+
+            <div class="article__carrousel__carrousel" x-data="{hrefCourant: '#image-1',}">
+                <button @click ="$refs.parent.scrollLeft -= $refs.parent.clientWidth" class="article__carrousel__carrousel__btn article__carrousel__carrousel__btn-avant" aria-label="slide précedant"><</button><button @click ="$refs.parent.scrollLeft += $refs.parent.clientWidth" class="article__carrousel__carrousel__btn article__carrousel__carrousel__btn-apres" aria-label="slide suivant">></button>
+                <div class="article__carrousel__carrousel__parent-images" x-ref="parent">
+                        @scroll.debounce.250ms.passive="
+                    hrefCourant = '#'+
+                                    [...$refs.parent.children]
+                                    .find(e=>e.getBoundingClientRect().x>=0)
+                                    .id"> 
+                    <div id="image-1" class="article__carrousel__carrousel__image">
+                        <figure>
+                            <img src="/public/img/book1chrono.webp" alt="cover du comics Les Gardiens de la Galaxie de 1969">
+                            <figcaption>"Les Gardiens de la Galaxie" (1969)</figcaption>
+                        </figure>
+                    </div>
+                    
+                    <div id="image-2" class="article__carrousel__carrousel__image">
+                        <figure>
+                            <img src="/public/img/book2chrono.webp" alt="cover du comics The Thanos War de 1973">
+                            <figcaption>"The Thanos War" (1973)</figcaption>
+                        </figure>
+                    </div>
+
+                    <div id="image-3" class="article__carrousel__carrousel__image">
+                        <figure>
+                            <img src="/public/img/book3chrono.webp" alt="cover du comics Thanos : La Guerre de l'Infini de 1992">
+                            <figcaption>"Thanos : La Guerre de l'Infini" (1992)</figcaption>
+                        </figure>
+                    </div>
+
+                    <div id="image-4" class="article__carrousel__carrousel__image">
+                        <figure>
+                            <img src="/public/img/book4chrono.webp" alt="cover du comics Annihilation de 2006">
+                            <figcaption>"Annihilation" (2006)</figcaption>
+                        </figure>
+                    </div>
+
+                    <div id="image-5" class="article__carrousel__carrousel__image">
+                        <figure>
+                            <img src="/public/img/book5chrono.webp" alt="cover du comics Les Gardiens de la Galaxie : Cosmic Avengers de 2006">
+                            <figcaption>"Les Gardiens de la Galaxie : Cosmic Avengers" (2013)</figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
         <a href="/fr/replique.html" class="article__btn">Article suivant</a>
 
     </main>
