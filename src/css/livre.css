@@ -165,31 +165,6 @@ figcaption {
     padding-bottom: 10px;
 }
 
-
-    .article__carrousel__carrousel__parent-images::-webkit-scrollbar {
-        height: 1px;
-        margin-top: 10px; /* Hauteur de la barre de défilement */
-    }
-    
-    /* Style du chemin de la barre de défilement */
-    .article__carrousel__carrousel__parent-images::-webkit-scrollbar-track {
-        background: var(--white-color); /* Couleur de fond du chemin */
-        border-radius: 10px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    
-    /* Style du curseur de la barre de défilement */
-    .article__carrousel__carrousel__parent-images::-webkit-scrollbar-thumb {
-        background: var(--pink-color);
-        border-radius: 10px; /* Couleur de fond du curseur */
-    }
-    
-    /* Style du curseur de la barre de défilement au survol */
-    .article__carrousel__carrousel__parent-images::-webkit-scrollbar-thumb:hover {
-        background: #555; /* Couleur de fond du curseur au survol */
-    }
-
 .article__carrousel__carrousel__image {
     width: 100%;
     flex: 0 0 100%;
