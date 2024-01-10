@@ -1,6 +1,12 @@
+.article__index{
+    margin-top: 212px;
+    margin-bottom: none;
+    padding-bottom: 60px;
+}
+
 .card2{
-    margin-bottom: 70px;
-    width: 335px;
+    margin-bottom: 10px;
+    width: 300px;
     height: 406px;
     display: flex;
     flex-direction: column;
@@ -11,8 +17,8 @@
 }
 
 .card1{
-    margin-bottom: 70px;
-    width: 335px;
+    margin-bottom: 10px;
+    width: 300px;
     height: 406px;
     display: flex;
     flex-direction: column;
@@ -25,7 +31,7 @@
 .card__fond{
     background-color: var(--white-color);
     margin-bottom: 0px;
-    width: 335px;
+    width: 300px;
     height: 406px;
     display: flex;
     flex-direction: column;
@@ -37,7 +43,7 @@
 
 .card__img {
     display: block;
-    width: 297px;
+    width: 262px;
     height: 228px;
 }
 
@@ -51,6 +57,8 @@
 .card__titre{
     color: var(--black-color);
     margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .card__texte{
@@ -79,3 +87,71 @@
     margin-bottom: 40px;
     box-shadow: 5px 10px 25px 0px var(--black-color);
 }
+
+.index__header{
+    background-color: var(--pink-color);
+    padding-top: 40px;
+    padding-bottom:40px;
+    height: 450px;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+}
+
+.index__header--titre{
+    font-family: var(--font-family);
+    font-weight: bolder;
+    font-size: 40px;
+    color: var(--white-color);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.index__header--legende{
+    text-align:end;
+    margin-right: 8%;
+    font-style: italic;
+    font-size: 14px;
+    font-family: var(--font-family-3);
+}
+
+.index__header--card{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) rotate(-3deg);
+    width: 300px;
+    height: 406px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.index__header--card--fond{
+    background-color: var(--white-color);
+    margin-bottom: 0px;
+    width: 300px;
+    height: 406px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 10px 25px 0px var(--black-color);
+}
+
+.article__deco1{
+    display: block;
+    width: 45%;
+    object-fit: contain;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.article__deco2{
+    display: block;
+    width: 45%;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
