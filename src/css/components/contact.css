@@ -43,6 +43,8 @@ textarea {
     text-decoration: none;
     background-color: var(--white-color); 
     border-radius: 5px;
+    width: 100%;
+    padding : 10px;
 }
 
 .contact__btn{
