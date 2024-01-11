@@ -45,6 +45,7 @@
     display: block;
     width: 262px;
     height: 228px;
+    object-fit: cover;
 }
 
 .card__punaise{
@@ -92,7 +93,7 @@
     background-color: var(--pink-color);
     padding-top: 40px;
     padding-bottom:40px;
-    height: 450px;
+    height: 647px;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
 }
 
@@ -111,6 +112,15 @@
     font-style: italic;
     font-size: 14px;
     font-family: var(--font-family-3);
+}
+
+.index__header--intro{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 10px;
 }
 
 .index__header--card{
