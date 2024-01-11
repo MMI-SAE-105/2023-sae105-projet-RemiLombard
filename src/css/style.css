@@ -4,23 +4,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
 
-@import "/src/css/variable.css";
+@import "/src/css/utils/variable.css";
 
-@import "/src/css/main.css";
+@import "/src/css/base/main.css";
+@import "/src/css/base/media.css";
 
-@import "/src/css/header.css";
-@import "/src/css/footer.css";
+@import "/src/css/layout/header.css";
+@import "/src/css/layout/footer.css";
 
-@import "/src/css/apropos.css";
-@import "/src/css/contact.css";
-@import "/src/css/film.css";
-@import "/src/css/frise.css";
-@import "/src/css/glossaire.css";
-@import "/src/css/index.css";
-@import "/src/css/livre.css";
-@import "/src/css/musique.css";
-@import "/src/css/projets.css";
-@import "/src/css/realisateur.css";
-@import "/src/css/replique.css";
-@import "/src/css/menu.css";
-@import "/src/css/404.css";
+@import "/src/css/components/apropos.css";
+@import "/src/css/components/contact.css";
+@import "/src/css/components/film.css";
+@import "/src/css/components/frise.css";
+@import "/src/css/components/glossaire.css";
+@import "/src/css/components/index.css";
+@import "/src/css/components/livre.css";
+@import "/src/css/components/musique.css";
+@import "/src/css/components/projets.css";
+@import "/src/css/components/realisateur.css";
+@import "/src/css/components/replique.css";
+@import "/src/css/components/menu.css";
+@import "/src/css/components/404.css";
